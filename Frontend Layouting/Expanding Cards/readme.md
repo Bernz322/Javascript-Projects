@@ -19,3 +19,7 @@ This is just a simple project however it is always nice to program things repeat
 - Use of Event Listener.
 - Use of ES6 Arrow Function.
 - Adding a class to a specified element.
+
+### Deployment
+
+https://bernz322.github.io/jsproject-expanding-cards/
