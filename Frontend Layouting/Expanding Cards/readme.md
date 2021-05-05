@@ -2,7 +2,7 @@
 
 ## About
 
-This is a simple project that contains images where when you click on one of them, the clicked image will expand an dwill occupy 50% of the screen width.
+This is a simple project that contains images where when you click on one of them, the clicked image will expand and will occupy 50% of the screen width.
 
 ## Learnings
 
