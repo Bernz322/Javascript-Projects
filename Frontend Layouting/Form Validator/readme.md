@@ -25,4 +25,4 @@ This is just a simple project however it is always nice to program things repeat
 
 ### Deployment
 
-https://bernz322.github.io/jsproject-form-validation/
+https://bernz322.github.io/jsprojects-form-validation/
