@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validator - JB's Javascript Practice</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- Fork Corner -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-corner/dist/fork-corner.min.css">
+</head>
+
+<body>
+
+    <main>
+        <header>
+            <h1>Register Today!</h1>
+            <p>We will make your stay super worth it!</p>
+        </header>
+
+        <form>
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username" class="txt_field" placeholder="Enter username">
+                <small>.</small>
+            </div>
+            <div class="form-control">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" class="txt_field" placeholder="Enter email">
+                <small>.</small>
+            </div>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="txt_field" placeholder="Enter password">
+                <small>.</small>
+            </div>
+            <div class="form-control">
+                <label for="confirm-password">Confirm Password</label>
+                <input type="password" name="confirm-password" id="confirm-password" class="txt_field"
+                    placeholder="Enter password again">
+                <small>.</small>
+            </div>
+            <button id="submit" type="submit">Submit</button>
+        </form>
+
+    </main>
+    <!-- FORK CORNER CDN -->
+    <a href="https://github.com/Bernz322/Build-a-Survery-Form" target="_blank" id="fork-corner"
+        class="fork-corner fc-pos-br fc-animate fc-theme-github fc-size-small"></a>
+    <script src="https://cdn.jsdelivr.net/npm/fork-corner/dist/fork-corner.min.js" defer></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

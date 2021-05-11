@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
+
+:root {
+    --main-color: #7d3333;
+    --error-color: #e74c3c;
+    --success-color: #2ecc71;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: var(--main-color);
+    background: url('../images/background-img.jpg') no-repeat left center fixed;
+    background-size: 100vh 100vw;
+    background-size: cover;
+}
+
+main {
+    header {
+        text-align: center;
+        margin: 50px 0;
+
+        h1 {
+            font-size: 2.25rem;
+            margin: 0 20px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: black;
+            font-style: italic;
+            margin: 0 20px;
+        }
+    }
+
+    form {
+        background: rgba(255, 255, 255, 0.05);
+        box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+        backdrop-filter: blur(7.5px);
+        -webkit-backdrop-filter: blur(11.5px);
+        border-radius: 10px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        height: 100%;
+        width: 55%;
+        margin: 25px auto 0;
+        font-size: 20px;
+        padding: 15px 30px 10px;
+        position: relative;
+
+        label {
+            display: block;
+        }
+
+        .txt_field {
+            height: 3em;
+            border-radius: 10px;
+            border: var(--main-color) solid 2px;
+            padding: 10px 15px;
+            font-size: 1rem;
+            margin-top: 13px;
+        }
+
+        .success .txt_field {
+            border: var(--success-color) solid 2px;
+        }
+
+        .error .txt_field {
+            border: var(--error-color) solid 2px;
+        }
+
+        .txt_field,
+        #submit {
+            display: block;
+            width: 100%;
+            font-family: 'Poppins', sans-serif;
+            color: #333333;
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        #submit {
+            background-color: var(--main-color);
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin: 15px 0;
+            height: 3em;
+            font-size: 1rem;
+            border-radius: 10px;
+
+            &:hover {
+                background-color: transparent;
+                transition: 0.2s ease-out;
+                color: var(--main-color);
+                border: 2px solid var(--main-color);
+            }
+        }
+
+
+        small {
+            color: var(--error-color);
+            visibility: hidden;
+        }
+
+        .form-control.error small {
+            visibility: visible;
+        }
+
+    }
+}
+
+@media (max-width: 1100px) {
+    main {
+        form {
+            width: 80%;
+        }
+    }
+
+}
+
+@media (max-width: 550px) {
+    main {
+        header {
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+
+            }
+        }
+
+        form {
+            width: 80%;
+            font-size: 1rem;
+
+            .txt_field {
+                height: 2em;
+                font-size: 13px;
+                margin-top: 5px;
+                padding: 0 15px;
+            }
+
+            #submit {
+                height: 2em;
+                font-size: 16px;
+            }
+        }
+    }
+
+}
