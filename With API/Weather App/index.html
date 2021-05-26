@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- Fork Corner -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fork-corner/dist/fork-corner.min.css">
+    <link rel="shortcut icon" href="/default-favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" id="search-bar" class="" placeholder="City Name">
+            <button type="submit">Search</button>
+        </div>
+        <small id="errorMsg">City not Found</small>
+        <div class="weather-details">
+            <div class="weather">
+                <div class="left">
+                    <img src="" alt="" id="icon">
+                    <h5 id="description">Partly Cloud</h5>
+                </div>
+                <div class="right">
+                    <h5 id="city">Singapore, SG</h5>
+                    <h5 id="temperature">25°C</h5>
+                </div>
+            </div>
+            <div class="others">
+                <div class="wind">
+                    <p>Wind Speed</p>
+                    <p id="wind-speed">22 kmph</p>
+                </div>
+                <div class="humidity">
+                    <p>Humidity</p>
+                    <p id="humid">60%</p>
+                </div>
+                <div class="pressure">
+                    <p>Pressure</p>
+                    <p id="pres">1010mb</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FORK CORNER CDN -->
+    <script src="./app.js"></script>
+    <a href="http://github.com/Bernz322/Javascript-Projects/tree/main/With%20API/Weather%20App" target="_blank"
+        id="fork-corner" class="fork-corner fc-pos-br fc-animate fc-theme-github fc-size-small"></a>
+    <script src="https://cdn.jsdelivr.net/npm/fork-corner/dist/fork-corner.min.js" defer></script>
+</body>
+
+</html>

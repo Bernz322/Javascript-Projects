@@ -1,25 +1,36 @@
-# Expanding Cards
+# Weather App
 
 ## About
 
-This is a simple project that contains images where when you click on one of them, the clicked image will expand and will occupy 50% of the screen width.
+This is a weather app that uses the openweather API and will show you several weather informations of a searched city. It has also a validator that will check if the field is empty and if a city doesn't exists which returns error 404 from the API.
 
 ## Learnings
 
-This is just a simple project however it is always nice to program things repeatedly.
+- Understanding Documentations
+- Fetching APIs
+- Understanding JSON data
+- HTTP Errors/ Response Status Codes
+- Javascript Promises
+- Javascript overwriting of css styles.
 
-### CSS
+## Future improvements
 
-- Use of SCSS.
-  - Nesting Selectors
-- Media Query for smaller screen size.
+- Convert Javascript code to jQuery
+- Replace Promises with Async/ Await
 
-### Javascript
+## Features
 
-- Use of Event Listener.
-- Use of ES6 Arrow Function.
-- Adding a class to a specified element.
+- Text Field Validator
+- Shows weather information of a city
+  - Icon of the weather
+  - Description of the weather
+  - Country of the City
+  - Temperature of the City
+  - Wind Speed of the City
+  - Humidity of the City
+  - Pressure of the City
+- Background image refreshes every time from unsplash site.
 
 ### Deployment
 
-https://bernz322.github.io/jsproject-expanding-cards/
+https://bernz322.github.io/jsproject-weather-app/
