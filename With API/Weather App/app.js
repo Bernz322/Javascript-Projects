@@ -18,7 +18,7 @@ function getData(city) {
   fetch(
     "https://api.openweathermap.org/data/2.5/weather?q=" +
       city +
-      "&appid=65ed60fcc07612f730ef8a6a917e742b&units=metric"
+      "&appid=yourTokenGoesHere"
   )
     .then((response) => {
       if (city == "") {
