@@ -7,10 +7,10 @@ const rate = document.getElementById("rate");
 const date = document.getElementById("date");
 
 // Fetching exchange rate
+let value_one = valueOne.value;
 async function convert() {
   let currency_one = currencyOne.value;
   let currency_two = currencyTwo.value;
-  let value_one = valueOne.value;
 
   const response = await fetch(
     `https://api.exchangerate.host/convert?from=${currency_one}&to=${currency_two}&amount=${value_one}`
@@ -22,7 +22,6 @@ async function convert() {
 
   // returns the conversion value
   const exchangeVal = data.info.rate;
-
   // updates the rate exchange
   rate.textContent = `1 ${currency_one} = ${exchangeVal} ${currency_two}`;
 
