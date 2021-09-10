@@ -10,17 +10,20 @@ This is a random quote generator that uses the API of lukePeavey (https://github
 - Understanding JSON data.
 - Javascript Async/ Await for fetching API.
 - Responsive Web and mobile friendly.
+- Adding loading effect using CSS and JS.
 
 ## Future improvements
 
 - Convert Javascript code to jQuery.
 - Maybe add local storage for users to add their own favorite quotes.
 - Improve front-end layout.
+- Add simple dark mode.
 
 ## Features
 
 - See and read tons of quotes from several authors.
 - Tweet the current quote to their respective twitter accounts.
+- Loading effect during pulling of data to the API.
 
 ### Deployment
 
